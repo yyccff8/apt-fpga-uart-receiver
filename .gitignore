@@ -1,0 +1,27 @@
+# Compiled and generated outputs
+**/build/
+*.exe
+*.dll
+*.pdb
+*.vvp
+*.bit
+*.bin
+*.raw
+*.hxf2
+*.png
+*.jpg
+*.jpeg
+*.pdf
+*.zip
+__pycache__/
+# Runtime records and personal settings
+**/captures/
+**/receiver_settings.ini
+*.csv
+# Vendor tools, full project and credentials are outside this repository
+.env
+.env.*
+*.key
+*.pem
+*.pfx
+*.log
