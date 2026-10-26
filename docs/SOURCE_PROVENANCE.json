@@ -1,0 +1,43 @@
+{
+  "transport_source": "v18",
+  "receiver_source": "pc_receiver_v3; vendor logo resource removed for standalone publication",
+  "rtl_leaves": {
+    "firmware/rtl/usb_preview.v": {
+      "source_version": "v18",
+      "sha256": "450d00b2c273b3dbfca3181702283ec3549517e0ff6539c2b23898a19df21f5f"
+    },
+    "firmware/rtl/uart_image_sender.v": {
+      "source_version": "v18",
+      "sha256": "54198a687c67fec9cd792b8efdbbc1c9a6b2dff7a84165f8ac7b85b092415ecc"
+    },
+    "firmware/rtl/uart_command_rx.v": {
+      "source_version": "v18",
+      "sha256": "e319496005c2aefa8f16a1b4717dc50e21bcb97f3d775d78f9fd2708b7b73432"
+    },
+    "firmware/rtl/spot_uart.v": {
+      "source_version": "v18",
+      "sha256": "9370e26d6785672a07778fb5bf7540a27c20c4caaa4ba459574555dac0f43368"
+    },
+    "firmware/rtl/uart_tx.v": {
+      "source_version": "v18",
+      "sha256": "cc0a005a4ee0ebf1384da5d5cb3bafd397a458ef09ad23f9d99ceff4d081ca71"
+    },
+    "firmware/rtl/frame_grab.v": {
+      "source_version": "v18",
+      "sha256": "c5c287eed1f4662c88018e9f48c01cb063577f7b61cf3cb275beb8b52eaa5e5f"
+    },
+    "firmware/rtl/grab_request_control.v": {
+      "source_version": "v18",
+      "sha256": "e12377ed442c92cc8fdebb37c6aa1ff25978ad8a213458794b3c838bd0738f1b"
+    },
+    "firmware/rtl/grab_ddr_arbiter.v": {
+      "source_version": "v18",
+      "sha256": "cb3a49105f750c6221c3ffae0cb11723ae902793d368a96ed877d449ea8001d8"
+    },
+    "firmware/rtl/key_debounce.v": {
+      "source_version": "v18",
+      "sha256": "945dd6e7ebe54e2b89c8ea2613309fa890109c09a713969fe3d8082aef351571"
+    }
+  },
+  "wrapper": "new transport-only extraction; requires independent integration validation"
+}
